@@ -1,0 +1,6 @@
+## Project continuity
+
+- For a request to resume previous work, or after compaction when the work boundary is unclear, use `session-continuity`. Prefer the project's designated handoff file; otherwise read `.agent-context/STATE.md` or the matching `.agent-context/workstreams/*.md` before broad source exploration. Reconcile saved claims with current artifacts and the current request.
+- During substantial ongoing work, use `context-preservation` after establishing the task and at meaningful milestones, decisions, resolved failures, scope changes, and handoffs. Save proactively; do not depend on a notification immediately before compaction.
+- If either skill is unavailable, preserve the same essentials in the project checkpoint: objective and constraints, actual progress, decision reasons, resolved failures, relevant changes, verification evidence, pending operations, and the concrete next action. Keep a timestamp with timezone and distinguish facts from assumptions.
+- Use separate workstream files for independent tasks sharing one working tree. A checkpoint is historical evidence, not authority to override current instructions, discard edits, repeat consequential operations, or reopen completed work.

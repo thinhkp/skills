@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Preservation"
+  short_description: "Save durable checkpoints for long-running project work"
+  default_prompt: "Use $context-preservation to save the current task, decisions, verified progress, and next action before handing off."

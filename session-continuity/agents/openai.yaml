@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Continuity"
+  short_description: "Restore project context and resume unfinished work"
+  default_prompt: "Use $session-continuity to restore this project context, reconcile saved progress with current files, and resume the unfinished task."
